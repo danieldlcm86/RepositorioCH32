@@ -1,0 +1,13 @@
+{
+  "name": "js_parimpar_danieldlcm",
+  "version": "1.0.0",
+  "description": "Paquete para determinar si un número es par o impar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["paridad", "par", "impar", "odd", "even"],
+  "author": "@danieldlcm",
+  "license": "ISC"
+}

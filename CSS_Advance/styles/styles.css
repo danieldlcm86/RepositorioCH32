@@ -1,0 +1,31 @@
+body{
+    background-color: #F5F7FB;
+    font-family: 'Karla', sans-serif;
+    margin:0;
+    overflow-x: hidden;
+}
+
+div{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    left: 50px;
+    /* top: 50px; */
+    bottom: 10px;
+    border: 1px solid black; /*Toma espacio del elemento de arriba*/
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

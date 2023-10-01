@@ -1,0 +1,213 @@
+/*CSS. Hoja de estilo en cascada
+Lenguaje que nos permite aplicar estilos a nuestro HTML.
+***** Reglas de CSS *****
+Una regla CSS consta de un selector y un bloque de declaración
+*/
+h2{
+    color:blueviolet;
+    background-color: darkkhaki;
+}
+
+/* Relacionar/linkear/asociar/referenciar/vincular nuestra hoja de estilos en el HTML
+<head>
+    <link rel="stylesheet" href="./...">
+</head>
+
+*** Tipos de selectores
+    - Etiquetas. Son instrucciones que podemos usar para seleccionar etiquetas HTML (h1, h3, p, a, img, etc.)
+        etiqueta{}
+    - Clases (class). Cuando usamos clases, podemos realizar la misma modificación para todos los elementos que pertenezcan a esa clase.
+        .className{}
+    - Identificadores (id). Nos permiten identificar un elemento en particular con un identificador único
+        #idName{}
+    - * nos permite darle estilos a los elementos que sobran
+*/
+
+/* * {
+    color:blue
+} */
+
+/* *** Selectores CSS
+Los selectores CSS se utilizan para seleccionar (encontrar) los elementos HTML que se desean diseñar.
+Los podemos dividir en cinco categorías:
+    - Selectores simples: etiqueta, id, class
+    - Selectores combinadores: relacionados entre ellos
+    - Selectores de pseudoclase: selecciona elementos en función de un determinado estado
+    - Selectores de pseudoelementos: selecciona y diseña una parte de un elemento
+    -  Selectores de atributo: selecciona elemento en función de un atributo o valor de atributo. 
+*/
+
+.firstClass{
+    color:whitesmoke;
+    font-family: cursive;
+    background-color: black;
+    font-weight: lighter;
+    /* border: 3px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: blue; */
+}
+
+#subtitle, #footer, h2{
+    color:chocolate;
+    text-align: center;
+    font-style: oblique;
+}
+
+/* camelCase. Convención de escritura. 
+myFirstClass
+*/
+
+/* favicon. Una imagen que nos permite identificar un archivo html. 
+<link rel="icon" href="./">
+*/
+
+/* **** Colores CSS ****
+Los colores en CSS se especifican utilizando los nombres de color predefinido o valores RGB, HEX, HSL, etc.
+
+*/
+#footer{
+    color: RGB(87,242,205,95);
+    background-color: #F47C2D;
+    /* border: 2px;
+    border-style:dashed;
+    border-color: blue; */
+}
+
+/* *** Fondos CSS (background)
+Propiedades:
+    - background-color
+    - background-image
+    - background-repeat
+    - background-position
+    - background
+*/
+
+#container{
+    background-image: url("https://i.pinimg.com/originals/0c/df/36/0cdf36633fee40ab0b2e5b98db541a18.jpg");
+}
+
+#england{
+    background-image: url("../assets/img/periodico.jpg");
+    background-size: 55px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+/* *** Bordes (border)
+    - border-style: dotted, dashed, solid, double, groove, ridge, etc.
+    - border-width: define el ancho
+    - border-color: define el color
+    - border-radius: darle redondear esquinas
+*/
+
+#container{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 1.5px;
+    border-radius: 6px;
+}
+
+#subtitle{
+    border-style: outset solid dashed double;
+    border-color: crimson blue blueviolet bisque;
+    border-width: 1px 5px 1px 6px;
+}
+
+/* 
+arriba = top
+derecha = right
+abajo = bottom
+izquierda = left
+*/
+
+/* *** Márgenes CSS (margin).
+Los márgenes se utilizan para crear espacio alrededor de los elementos, fuera de los bordes definidos.
+margin, margin-top, margin-right, margin-bottom, margin-left
+*/
+
+.screenShot{
+    width: 120px;
+    margin: 5px;
+    /* margin-top: 200px; */
+}
+
+#products{
+    text-align: center;
+    border: solid 2px crimson;
+    margin: 30px;
+}
+
+.productName{
+    border: 2px solid violet;
+    margin: 10px;
+}
+
+.description{
+    margin: 5px;
+    background-color:darkgrey;
+    padding: 10px;
+    /* text-transform:uppercase; */
+}
+
+/* 
+    **** Padding (relleno)
+El padding se utiliza para crear espacio alrededor del contenido de un elemento.
+    padding: 20px;
+    padding: 20px 10px 20px 10px;
+    padding-top: 20px;
+
+    **** Alineación del texto
+    Establece la alineación horizontal del texto:
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+
+    **** Decoración de texto
+    text-decoration-line
+    text-decoration-color
+    text-decoration-style
+    text-decoration
+*/
+
+#title{
+    text-align:center;
+    color:darkslategrey;
+    /* text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:darkmagenta;
+    text-underline-offset: 8px; */
+    /* letter-spacing: 5px; */
+    /* text-shadow: 1px 1px red; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-weight: 900; */
+    font-size: 25px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* 
+*** Transformación de texto
+uppercase, lowercase, capitalize
+*** Espaciado de texto
+    text-indent
+    letter-spacing
+    line-height
+    white-space
+*** Sombra de texto
+    text-shadow
+*** Familias de fuentes genéricas
+    font-family
+*** Estilos de fuente: font-style
+    normal
+    cursiva
+    oblicuo
+*** Font-weight
+*** font-variant
+*/
