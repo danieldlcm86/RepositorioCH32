@@ -1,0 +1,43 @@
+/*870e4f*/
+.navbar--container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #35048e 25%, #ad30db 100%);
+}
+
+.navbar--title{
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color:#e395ff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar--title > h1{
+    margin: 2px 0px;
+}
+
+.navbar--links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.navbar--link{
+    padding: 10px;
+}
+
+a{
+    color: white !important;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
